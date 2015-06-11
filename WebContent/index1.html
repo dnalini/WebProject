@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<script src="angular/symphonyController.js"></script>
+</head>
+<body>
+	<div ng-app="" ng-controller="loginControler">
+		<form novalidate>
+			User Name: <input type="text" ng-model="user.username"><br>
+			Password : <input type="text" ng-model="user.password"><br>
+			<button ng-click="login()">Login</button>
+			<button ng-click="reset()">Reset</button>
+			<p>Error: {{ userauth }} </p> 
+			<p>User: {{ user }}</p>
+		</form>
+	</div>
+</body>
+</html>
