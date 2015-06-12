@@ -2,7 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>DynaWebProject1</groupId>
   <artifactId>DynaWebProject1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>DynaWebProject1</name>
   <description>DynaWebProject1</description>
